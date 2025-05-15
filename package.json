@@ -4,11 +4,15 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "start": "vite preview"
-  },
+  "dev": "npx vite",
+  "build": "npx vite build",
+  "preview": "npx vite preview",
+  "start": "npx vite preview --host 0.0.0.0 --port 10000"
+},
+"engines": {
+  "node": "20.x"
+},
+
   "dependencies": {
     "@emotion/is-prop-valid": "^1.2.1",
     "@radix-ui/react-accordion": "^1.1.2",
